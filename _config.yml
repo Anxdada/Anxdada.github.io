@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: Anxdada.life Blog
+subtitle: 记录点滴生活
+description: 努力的苟活着
+keywords: "生活, ACM, iOS, FFmpeg, 音视频"
+author: Anxdada
+language: zh-CN
 timezone: ''
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,30 @@ deploy:
   type: git
   repo: git@github.com:Anxdada/Anxdada.github.io.git
   branch: master
+
+
+#搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+     use: live2d-widget-model-koharu
+  display:
+     position: right
+     width: 150
+     height: 300
+  mobile:
+     show: true
