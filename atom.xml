@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Anxdada.life Blog</title>
+  
+  <subtitle>记录点滴生活</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-12T06:42:35.493Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Anxdada</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建博客记录</title>
+    <link href="http://yoursite.com/2020/01/26/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2020/01/26/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-01-26T08:11:37.000Z</published>
+    <updated>2020-03-12T06:42:35.493Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文主要记录下自己搭建该博客中出现的一些坑点, 让看到的人少走一些弯路.</p><a id="more"></a><p>之前我一直是知道这个github博客的, 只不过一直没有空去弄, 后面专门在一天周末研究一下, 决心搭建出来, 于是在网上找教程不过找到的都是些比较老, 描述不清晰的博客, 让我走了一些弯路的, 于是希望记录下来, 让看到的人想要搭建github博客的直接一气呵成不留坑.</p><h2 id="博客基础"><a href="#博客基础" class="headerlink" title="博客基础"></a>博客基础</h2><ul><li><a href="https://cuiqingcai.com/7625.html" target="_blank" rel="noopener">搭建</a></li><li><a href="http://yearito.cn/posts/hexo-writing-skills.html#%E5%BC%80%E5%A7%8B%E5%86%99%E4%BD%9C" target="_blank" rel="noopener">写作</a></li><li><a href="http://yearito.cn/posts/hexo-theme-beautify.html" target="_blank" rel="noopener">美化1</a></li><li><a href="https://jiyali.github.io/2019/04/15/hexo-next-%E9%83%A8%E7%BD%B2%E5%90%84%E7%A7%8D%E7%82%AB%E9%85%B7%E5%8D%9A%E5%AE%A2%E7%89%B9%E6%95%88/" target="_blank" rel="noopener">美化2</a></li></ul><h2 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h2><ul><li>一定要建好两个分支, 将博客的源码存下, 不然你换电脑后或者想多台电脑上提交博客只能重头搭建博客, 如果做好了分支准备, 那么在新的电脑上恢复环境以及在多台电脑上提交博客就比较简单了, 可参考这两篇<a href="https://www.jianshu.com/p/fceaf373d797" target="_blank" rel="noopener">博客1</a>, <a href="https://www.jianshu.com/p/0b1fccce74e0" target="_blank" rel="noopener">博客2</a></li><li>如果迁移博客或者更新博客后出现了跳转失败等原因, 检查配置文件后没问题的话, 试试clean后再generate</li><li>迁移博客中出现的常见问题就是theme/next下是空的, 其实上面博客1下面提了一下, 就是因为你在开始创建博客是在next中有git仓库, 里面有个.gitignore文件忽略了所有文件的提交, 解决方法就是在最初的搭建网站电脑上(theme/next)执行git rm -r —cached next, 取消对next之前的追踪记录, 再在其他电脑上更新一下即可.</li><li>写作的话, 我就是用的Vscode, 它是支持写Markdown的, 不过为了更好的书写, 需要一些插件来丰富写作, <a href="https://sspai.com/post/53327" target="_blank" rel="noopener">参考</a>. 之所以选择这个是Mac上确实好用的Markdown编辑器都挺贵的, 破解版又不靠谱(没找到好的资源), 本来Vscode就是一款更好用的编辑器, 既然能支持, 为啥不用它写了? </li><li>图片的插入, 参考这篇<a href="https://www.jianshu.com/p/8d28027fec76" target="_blank" rel="noopener">博客</a>, 亲测有效</li></ul><p>希望能对你有所帮助, 如有错误和建议, 欢迎留下评论. </p><p>Peace &amp;&amp; Love</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文主要记录下自己搭建该博客中出现的一些坑点, 让看到的人少走一些弯路.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="博客相关" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
